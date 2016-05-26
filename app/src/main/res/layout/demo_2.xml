@@ -5,7 +5,7 @@
     android:background="#ffffff"
     android:orientation="vertical" >
 
-    <com.demo.zlm.viewsample.HorizontalScrollViewEx2
+    <com.demo.zlm.viewsample.ui.HorizontalScrollViewEx2
         android:id="@+id/container"
         android:layout_width="wrap_content"
         android:layout_height="match_parent" />

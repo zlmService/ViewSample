@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:onClick="doClick" />
 
-    <com.demo.zlm.viewsample.CircleView
+    <com.demo.zlm.viewsample.ui.CircleView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_margin="20dp"

@@ -6,6 +6,37 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!--//theme默认值-->
+        <item name="custom_color1">#ff444444</item>
+        <item name="custom_color2">#ff444444</item>
+        <item name="custom_color3">#ff444444</item>
+        <item name="custom_color4">#ff444444</item>
+        <item name="custom_color5">#ff444444</item>
+        <!--defStyleAttr-->
+        <item name="custom_style">@style/custom_theme</item>
     </style>
 
+    <!--//defStyleAttr-->
+    <style name="custom_theme">
+        <item name="custom_color1">#ff222222</item>
+        <item name="custom_color2">#ff222222</item>
+        <item name="custom_color3">#ff222222</item>
+    </style>
+
+    <!--布局文件中引用的style-->
+    <style name="myStyle">
+        <item name="custom_color1">#ff111111</item>
+        <item name="custom_color2">#ff111111</item>
+    </style>
+
+    <!--defStyleRes的值-->
+    <style name="default_style">
+        <item name="custom_color1">#ff333333</item>
+        <item name="custom_color2">#ff333333</item>
+        <item name="custom_color3">#ff333333</item>
+        <item name="custom_color4">#ff333333</item>
+        <item name="custom_color5">#ff333333</item>
+    </style>
 </resources>

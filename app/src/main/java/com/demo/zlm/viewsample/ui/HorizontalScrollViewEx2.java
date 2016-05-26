@@ -1,4 +1,4 @@
-package com.demo.zlm.viewsample;
+package com.demo.zlm.viewsample.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

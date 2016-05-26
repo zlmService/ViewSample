@@ -1,4 +1,4 @@
-package com.demo.zlm.viewsample;
+package com.demo.zlm.viewsample.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -7,6 +7,8 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.demo.zlm.viewsample.R;
 
 /**
  * Created by malinkang on 2016/5/10.
@@ -31,14 +33,13 @@ public class CircleView extends View {
     public CircleView(Context context, AttributeSet attrs) {
         super(context, attrs);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.CircleView);
-        mColor = typedArray.getColor(R.styleable.CircleView_circle_color, Color.YELLOW);
         typedArray.recycle();
         init();
     }
 
     public void init() {
         paint = new Paint();
-//        paint.setAntiAlias(true);
+        paint.setAntiAlias(true);
         paint.setColor(mColor);
     }
 

@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +15,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
+
+import com.demo.zlm.viewsample.ui.HorizontalScrollViewEx2;
 
 public class DemoActivity_2 extends Activity {
     private static final String TAG = "DemoActivity_2";
@@ -45,6 +45,7 @@ public class DemoActivity_2 extends Activity {
             layout.setBackgroundColor(Color.rgb(255 / (i + 1), 255 / (i + 1), 0));
             createList(layout);
             mListContainer.addView(layout);
+
             textView.post(new Runnable() {
                 @Override
                 public void run() {
